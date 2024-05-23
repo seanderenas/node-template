@@ -1,0 +1,35 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "description": "Node template made by Sean Derenas, used for eliminating boiler-plate code and for quick prototyping websites. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanderenas/node-template.git"
+  },
+  "keywords": [
+    "template",
+    "node",
+    "express"
+  ],
+  "author": "Sean Derenas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanderenas/node-template/issues"
+  },
+  "homepage": "https://github.com/seanderenas/node-template#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemon": "^3.1.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
